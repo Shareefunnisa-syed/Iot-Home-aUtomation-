@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IoT Home Automation Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        .data-box {
+            display: inline-block;
+            padding: 20px;
+            margin: 20px;
+            font-size: 24px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>🏠 IoT Home Automation Dashboard</h1>
+    <div class="data-box">🌡️ Temperature: {{ data.temperature }} °C</div>
+    <div class="data-box">💧 Humidity: {{ data.humidity }} %</div>
+</body>
+</html>
